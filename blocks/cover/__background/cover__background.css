@@ -1,4 +1,8 @@
 .cover__background {
+    background-image: url(../../../images/cover-trains.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     height: 100%;
     position: relative;
@@ -18,12 +22,14 @@
     height: 100%;
     background-color: #2a2c2f;
     position: absolute;
+    top: auto;
+    left: auto;
     opacity: .3;
     transition: opacity .3s linear;
 }
 
 .cover__background:hover:after {
-    opacity: .7;
+    opacity: .8;
 }
 
 @media screen and (max-width: 1024px) {
