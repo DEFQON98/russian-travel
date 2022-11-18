@@ -16,9 +16,9 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 543px) {
     .place__image {
-        max-width: calc(375px + (425 - 375) * ((100vw - 375px) / (425 - 375)));
+        max-width: calc(375px + (540 - 375) * ((100vw - 375px) / (540 - 375)));
     }
 }
 
